@@ -1,4 +1,5 @@
 package Graphs.Basics;
+import java.util.*;
 
 public class BipartiteCheck {
     public boolean isBipartite(int V, ArrayList<ArrayList<Integer>> adj)
