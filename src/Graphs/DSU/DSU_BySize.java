@@ -10,10 +10,9 @@ public class DSU_BySize {
         size = new int[n];
         parent = new int[n];
 
-        Arrays.fill(size,1);
-
         for (int i = 0; i < n; i++) {
             parent[i] = i;
+            size[i] = 1;
         }
     }
 

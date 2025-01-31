@@ -10,10 +10,9 @@ public class DSU_ByRank {
         rank = new int[n];
         parent = new int[n];
 
-        Arrays.fill(rank,1);
-
         for (int i = 0; i < n; i++) {
             parent[i] = i;
+            rank[i] = 1;
         }
     }
 
